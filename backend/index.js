@@ -13,7 +13,7 @@ const port=process.env.PORT || 5000
 
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chatzy-2-gspt.onrender.com",
     credentials:true
 }))
 app.use(express.json())
